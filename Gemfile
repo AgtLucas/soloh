@@ -38,3 +38,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+# gem 'requirejs-rails', '0.9.3'
+gem "requirejs-rails", github: "jwhitley/requirejs-rails"
+# gem 'requirejs-rails', github: 'agtlucas/requirejs-rails'
