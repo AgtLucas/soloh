@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-
+source 'https://rails-assets.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.6'
@@ -29,6 +29,9 @@ gem 'spring',        group: :development
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+# Retreat Hell!
+# gem 'rails-assets-retreat-hell'
+
 # Use unicorn as the app server
 # gem 'unicorn'
 
@@ -38,6 +41,6 @@ gem 'spring',        group: :development
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
-# gem 'requirejs-rails', '0.9.3'
-gem "requirejs-rails", github: "jwhitley/requirejs-rails"
+gem 'requirejs-rails'
+# gem "requirejs-rails", github: "jwhitley/requirejs-rails"
 # gem 'requirejs-rails', github: 'agtlucas/requirejs-rails'
